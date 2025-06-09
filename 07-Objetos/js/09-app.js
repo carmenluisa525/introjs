@@ -12,6 +12,7 @@ const medida = {
     peso: "2.5Kg",
     medida: "1.5mt"
 }
+//
 
 //una forma de unirlo es con el método assign()
 //const resultado = Object.assign(producto, medida);
