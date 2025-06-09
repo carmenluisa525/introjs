@@ -26,7 +26,7 @@ console.log(calificación)
 //estilos para crear variables
 
 var nombreProducto ="monitor"//camelcase
-var nombre_producto="monitor"//anake case
+var nombre_producto="monitor"//snake case
 var nombre_producto="monitor"//Pascalcase
 
 //js es case-sensitive
