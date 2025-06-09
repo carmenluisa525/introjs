@@ -19,4 +19,13 @@ const medida = {
 //console.log(resultado);
 
 //console.log(producto);
+//la forma recomendada:clonar el objeto producto y luego agregarle las propiedades de medida
+const resultado2 = Object.assign( {},producto, medida);
+//Esto crea un nuevo objeto, combinando producto+medida, sin alterar
+
+//verificamos el nuevo objeto original
+console.log(producto);
+
+//Mostramos el nuevo objeto combinado
+console.log(resultado2);
 
