@@ -8,15 +8,13 @@ console.log(precio)
 
 //Es de tipo dinámico
 var(precio)=200;
-console.log
+console.log(precio)
 
-var disponible=true
-console.log
+var disponible;
+disponible=true
+console.log(disponible)
 
-
-
-
-var categoria=ordenadores
+var categoria="ordenadores"
 
 
 

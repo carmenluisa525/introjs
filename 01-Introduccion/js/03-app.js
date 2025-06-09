@@ -4,7 +4,7 @@
 //let y const-- tienen alcance de bloque {}
 //let permite inicializar sin valor-const no
 
-cons producto="monitor"
+const producto="monitor"
 console.log(producto)
 
 const precio=200;

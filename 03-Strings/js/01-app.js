@@ -10,5 +10,7 @@ const producto2=String("monitor 18´");
  console.log (producto2);
  console.log (producto3);
 
- //ALGUNAS REGLAS
-//se pueden 
+ //Algunas reglas
+//se pueden utilizar comillas simples o dobles
+const producto4="Monitor 40\"";
+console.log(producto4);
