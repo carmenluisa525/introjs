@@ -1,0 +1,19 @@
+//Como acceder a los elementos de la Array
+//Creamos uno llamaso "numeros"
+const numeros = [10,20,30,40,50,60];
+console.table(numeros);
+
+//los elementos de Array se acceden utilizando su indice
+//Importente en js el índice array comienza en cero
+//accedemoa al primer elemento
+console.log(numeros[0]);
+//accedemos al segundo elemento
+console.log(numeros[1]);
+//accedemos al tercer elemento
+console.log(numeros[2]);
+//accedemos al cuarto elemento
+console.log(numeros[3]);
+//accedemos al quinto elemento
+console.log(numeros[4]);
+//accedemos al quinto elemento
+console.log(numeros[3]);
