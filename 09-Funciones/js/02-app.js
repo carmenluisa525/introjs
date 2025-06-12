@@ -41,8 +41,8 @@ const sumar2 = function(){
 //3.Pilas  colas:
 //-Pila de Ejecución (Call Stack):
 //-La pila de ejecucón maneja el seguimiento de las funciones que está invocando.
-//se añde un marco de pila (stack frame) a la pia.Cuando la función temina,se elimina el marco
-//-Cola de efecución (Task Queue):
+//se añde un marco de pila (stack frame) a la pila.Cuando la función temina,se elimina el marco
+//-Cola de ejecución (Task Queue):
 //-La cola de tareas gestiona las funciones qu deben ejecutarse después de que de coplete el código síncrono actual.
 //Esto incluye callbacks de eventos, promesas resultas y otro tipo de tareas asíncronas.
 //4.Eventos y Asíncronía:
