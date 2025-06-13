@@ -5,7 +5,7 @@ const aprendiendo = (tecnologia) =>
 
 //Llamamos a la función pásandole u argumento;'JavaScript
 aprendiendo('JavaScript');
-//Si la función flecha(arow function) tiene un sólo parámetro podemos omitir los paréntesis
+//Si la función flecha(arrow function) tiene un sólo parámetro podemos omitir los paréntesis
 
 const aprendiendo1 = tecnologia => 
     console.log(`Aprendiendo ${tecnologia}`);
