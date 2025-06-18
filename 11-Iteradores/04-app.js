@@ -18,4 +18,5 @@ function generarNumerosAleatorios(){
     }
     console.log(numeros);
 }
+generarNumerosAleatorios();
 
