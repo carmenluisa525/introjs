@@ -6,7 +6,7 @@ while (i<10){
     i++;
 }
 
-function generarNumerosAleatorios(){
+/*function generarNumerosAleatorios(){
     let numeros = [];
     const cantidad = 100;
     while(numeros.length< cantidad){
@@ -18,5 +18,18 @@ function generarNumerosAleatorios(){
     }
     console.log(numeros);
 }
-generarNumerosAleatorios();
+generarNumerosAleatorios();*/
 
+
+function generarNumerosAleatorios(){
+    let numeros = new Set();
+    while (numeros.size < 100){
+        let numeroAleatorio = Math.floor(Math.random()*100)+1;
+        numeros.add(numeroAleatorio);
+    }
+    let arrayNumeros = Array.from(numros); //Si queremos convertirlo en un array
+    console.log(arrayNumeros);
+
+
+}
+generarNumerosAleatorios();
