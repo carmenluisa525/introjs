@@ -34,6 +34,6 @@ console.log(resultado);
 const existe = carrito.some(producto => producto.nombre === 'Portátil');
 console.log("¿Existe el portátil?", existe);
 
-//Uso del método some en el rray meses
+//Uso del método some en el array meses
 const existe2 = meses.some(mes => mes === 'febrero');
 console.log("¿febrero existe?", existe2); //true si al menos un elemento de la array devuelve la función
